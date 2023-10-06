@@ -1,9 +1,28 @@
 function isPalindrome(word) {
   // Write your algorithm here
+const letters=[...word]
+const joined=letters.join('')
+//console.log(reversed)
+const reversed=letters.reverse().join('')
+console.log(reversed)
+
+if(joined === reversed){
+  console.log('true')
+  return true
+}else{
+  console.log('false')
+  return false
 }
+}
+isPalindrome('racecar')
 
 /* 
   Add your pseudocode here
+  get the prams in the function
+  add to aray and then join it to to string
+  for reverse use .reverse 
+  check condiotion
+  
 */
 
 /*
